@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel+Decorative:wght@400;700;900&family=Lugrasimo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Tenor+Sans&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel+Decorative:wght@400;700;900&family=Lugrasimo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Questrial&family=Tenor+Sans&display=swap');
 
 * {
     margin: 0px;
@@ -25,21 +25,77 @@ h1.maquiagem {
     background-color: white;
     text-align: center;
     font-family: Aboreto;
+    padding: 50px;
+}
+
+menu {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+}
+menu > a {
+    color: black;
+    margin: 5px;
+    background-color: white; 
+}
+
+aside {
+    background-color: white;
+    padding: 25px;
 }
 
 aside > p {
+    
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    padding: 10px;
+    list-style: none;
+    list-style-position: inside;
+    columns: 1;
+    text-align: left;
+    width: 500px;
 }
+
+p {
+    font-family: Questrial;
+    line-height: 1.8rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
 
 footer {
     background-color: #6A704C;
     color: white;
     font-family: Nunito Sans;
-    margin: 0px;
-    padding: 0px;
+    
+}
+
+footer > ul {
+    columns: 3;
+    padding: 20px;
+    text-align: center;
+}
+
+footer > h1 {
+    padding: 20px;
+    text-align: center;
+    font-family: Aboreto;
 }
 
 footer > ul > li {
     list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li.d1 > a:hover {
+    text-decoration: underline;
+    color: #6A704C;
 }
