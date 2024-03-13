@@ -17,7 +17,8 @@ body {
 main {
     background-color: #EDE1D1;
     margin: auto;
-    width: 1000px;
+    min-width: 320px;
+    max-width: 1000px;
 }
 
 h1.maquiagem {
@@ -32,10 +33,12 @@ menu {
     background-color: white;
     text-align: center;
     padding: 5px;
+    width: 100%;
 }
 menu > a {
     color: black;
     margin: 5px;
+    width: 100%;
 }
 
 menu > a:hover {
@@ -71,12 +74,14 @@ p {
 
 .container {
     text-align: center;
+    width: 100%;
 }
 
 footer {
     background-color: #6A704C;
     color: white;
     font-family: Nunito Sans;
+    width: 100%;
     
 }
 
