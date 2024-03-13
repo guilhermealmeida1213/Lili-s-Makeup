@@ -33,6 +33,7 @@ menu {
     background-color: white;
     text-align: center;
     padding: 5px;
+    font-size: 1.8vw;
 }
 menu > a {
     color: black;
