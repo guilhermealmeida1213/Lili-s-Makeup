@@ -33,12 +33,10 @@ menu {
     background-color: white;
     text-align: center;
     padding: 5px;
-    width: 100%;
 }
 menu > a {
     color: black;
     margin: 5px;
-    width: 100%;
 }
 
 menu > a:hover {
